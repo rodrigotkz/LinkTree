@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Lobster&family=Montserrat%3Awght%40300&display=swap%27%29%3B');
+
+:root {
+   --padrao: #0d6efd;
+   --nome: 'Inspiration', cursive;
+   --corpo: 'Montserrat', sans-serif;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body{
+   background-color: #cdc9e4;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.nome{
+   font-family: var(--nome);
+   font-size: 4.5rem;
+   color:white;
+   paddins-top: 50px;
+   text-align: center;
+}
+
+.box-top {
+   width: 95vw;
+   height: 35vh;
+   background-color: var(--padrao);
+   border-radius: 0px 0px 35px 35px;
+   margin-bottom: 10px;
+}
+
+.about {
+   font-family: var(--corpo);
+   color: white;
+   text-align: center;
+   font-size: 1.1rem;
+   padding: 5px;
+}
+
+main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.box-link{
+   background-color: var(--padrao);
+   height: 10vh;
+   width: 80vw;
+   padding: 10px;
+   margin: 10px;
+   color: white;
+   font-family:var(--corpo);
+}
+
+a{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   text-decoration: none;
+   color: white;
+   font-size: 1.5rem;
+}
+
+.box-link:hover {
+   border: 1px solid var(--padrao);
+   background-color: white;
+   color: var(--padrao)
+}
